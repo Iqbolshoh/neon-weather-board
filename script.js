@@ -12,11 +12,11 @@ async function getWeather() {
 
   if (data.cod === 200) {
     result.innerHTML = `
-      <h2>${data.name}</h2>
+      <h2>📍 ${data.name}</h2>
       <h1>${data.main.temp}°C</h1>
       <p>${data.weather[0].description}</p>
     `;
   } else {
-    result.innerHTML = "Not found";
+    result.innerHTML = "❌ City not found";
   }
 }
