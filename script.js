@@ -17,6 +17,6 @@ async function getWeather() {
       <p>🌥 ${data.weather[0].description}</p>
     `;
   } else {
-    result.innerHTML = "❌ City not found";
+    result.innerHTML = "❌ Not found";
   }
 }

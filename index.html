@@ -7,16 +7,30 @@
 </head>
 <body>
 
-<div class="container">
-  <h1>🌤 Neon Weather Board</h1>
+<header>
+  <div class="logo">⚡ WeatherX</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#weather">Weather</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
 
-  <div class="search">
-    <input id="city" placeholder="Enter city..." />
-    <button onclick="getWeather()">Search</button>
-  </div>
+<section class="hero">
+  <h1>Real-Time Weather Info</h1>
+  <p>Fast and clean weather dashboard</p>
+</section>
+
+<section id="weather" class="box">
+  <input id="city" placeholder="Enter city..." />
+  <button onclick="getWeather()">Search</button>
 
   <div id="result"></div>
-</div>
+</section>
+
+<footer>
+  <p>© 2026 WeatherX. Built with love 💙</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
