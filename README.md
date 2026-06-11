@@ -70,7 +70,7 @@ neon-weather-board/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/weatherx-pro.git
+git clone https://github.com/iqbolshoh/neon-weather-board
 ```
 
 ### 2. Open the Project
