@@ -1,4 +1,4 @@
-# ⚡ WeatherX Pro - Live Weather Intelligence
+# ⚡ Neon Weather Board - Live Weather Intelligence
 
 WeatherX Pro is a modern weather forecasting web application built using **HTML, CSS, and JavaScript**. It allows users to search for any city worldwide and instantly view real-time weather information through a clean and responsive interface.
 
@@ -55,7 +55,7 @@ Optimized for desktops, tablets, and smartphones.
 # 📂 Project Structure
 
 ```bash
-WeatherX-Pro/
+neon-weather-board/
 │
 ├── index.html
 ├── style.css
